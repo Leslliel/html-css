@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Videos HTML5</h1>
+    <h2>Inserindo videos hospedados localmente</h2>
+    <p>Este video esta hospedado no meu proprio servidor.</p>
+    <video controls loop poster="imagens/montanha-thumb.png" width="560">
+        <source src="midia/meuvideo-1.webm" type="video/webm">
+        <source src="midia/meuvideo-1.m4v" type="video/mp4">
+        <source src="midia/meuvideo-1.mp4" type="video/mp4">
+        <source src="midia/meuvideo-1.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+
+    <h2>Inserindo videos do youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=p7G8S5KLwOhqYu17" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h2>Inserindo videos do vimeo</h2>
+    <iframe src="https://player.vimeo.com/video/185871317?h=a63f42bf1b&color=ffffff&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

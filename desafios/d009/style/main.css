@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(31, 31, 31);
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
