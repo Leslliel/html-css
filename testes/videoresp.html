@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade em video</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: grey;
+        }
+
+        main {
+            margin: auto;
+            height: 100vh;
+            max-width: 800px;
+            min-width: 300px;
+            background-color: white;
+        }
+
+        p {
+            padding: 10px 5px;
+            text-indent: 1.5rem;
+        }
+
+        div#video {
+            background-color: black;
+        }
+
+        div#video > iframe {
+            display: block;
+            margin: auto;
+            aspect-ratio: 16/9;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum magnam asperiores quibusdam saepe quod debitis est accusantium mollitia animi, non hic sed at modi illum optio rerum? Ducimus, minus odit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel tempore dolor porro, corrupti culpa quos accusantium repellat dolorem. Alias, rem recusandae? Ipsum, quas aperiam! Hic aliquam amet natus ex molestiae!</p>
+        <div id="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4tqtuJhJLBY?si=UeV_FqQ4_W1DQ97K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </main>
+</body>
+</html>
